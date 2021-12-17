@@ -13,6 +13,7 @@ After getting acquainted with the structure of the project and installing the ne
         │     ├──test.csv                     # Test set
         │     └──train.csv                    # Training set
         ├──images                             # Images for README
+        ├──lectures                           # Lectures folder
         ├──SparkCustomMLSkeleton              # Code skeleton with custom transformers and estimators
         ├──SparkCustomMLPipeline              # Code example with custom transformers and estimators and basic pipeline
         ├──SparkMLPipeline                    # Project example with Spark ML

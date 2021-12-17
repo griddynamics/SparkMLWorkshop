@@ -1,4 +1,4 @@
-# SparkCustomMLPipeline
+# SparkCustomMLSkeletone
 
 ## Overview
 
@@ -23,7 +23,6 @@ This project contains skeleton code for building a pipeline and using custom cla
         │        │  └──CustomTransformer.scala          # Custom transformer, which creating new field feature3, as a sum of feature1 and feature2
         │        ├──SimplepipelineExample.scala         # Example of standard spark ml-pipeline
         │        ├──Test.scala                          # Test pipeline
-        │        └──Train.scala                         # Train pipeline 
+        │        └──Train.scala                         # Train pipeline
         ├──build.sbt                                    # Build properties   
         └──README.md                                    # Awesome README
-

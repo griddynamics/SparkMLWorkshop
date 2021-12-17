@@ -2,14 +2,14 @@
 
 ## Overview
 
-This project provides an example of the implementation of custom transformers and estimators based on Apache Spark MLlib. 
-The custom transformer adds a new field of features, which is the result of the sum of 2 already existing fields. 
+This project provides an example of the implementation of custom transformers and estimators based on Apache Spark MLlib.
+The custom transformer adds a new field of features, which is the result of the sum of 2 already existing fields.
 The custom estimator calls the Python training file via rdd.pipe. Logistic regression was used for training.
 
 ## Project Structure
 
     .
-    └───SparkCustomPipelineExample                           # Project folder
+    └───SparkCustomPipelineExample                      # Project folder
         ├──project
         │  ├──build.properties                          # Build properties
         │  └──plugins.sbt                               # Build plugin: assembly for fat-jar              
@@ -25,7 +25,6 @@ The custom estimator calls the Python training file via rdd.pipe. Logistic regre
         │        │  └──CustomTransformer.scala          # Custom transformer, which creating new field feature3, as a sum of feature1 and feature2
         │        ├──SimplepipelineExample.scala         # Example of standard spark ml-pipeline
         │        ├──Test.scala                          # Test pipeline
-        │        └──Train.scala                         # Train pipeline 
+        │        └──Train.scala                         # Train pipeline
         ├──build.sbt                                    # Build properties   
         └──README.md                                    # Awesome README
-
