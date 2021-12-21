@@ -123,9 +123,9 @@ http://127.0.0.1:8888/?token=ba4ac51b4c0c7d9f98a9e99f0e4043e9dce9ed219cd43c44
 
 To upload data:
 
-1. Create folder `data`: ![create-new-folder](/Users/isamsonov/work/projects/griddynamics/ML/SparkMLCourse/images/create-new-folder-data.png)
+1. Create folder `data`: ![create-new-folder](images/create-new-folder-data.png)
 2. Create folder `mllib` in folder `data`
-3. Click on `upload` button: ![upload data](/Users/isamsonov/work/projects/griddynamics/ML/SparkMLCourse/images/updoad-data.png)
+3. Click on `upload` button: ![upload data](images/updoad-data.png)
 4. Choose file and click on `open` button
 5. Click on `upload` button
 
