@@ -45,6 +45,6 @@ A more detailed description of the data can be found on [Kaggle](https://www.kag
 The task is to train a machine learning clustering model that will split university into 2 clusters (private and not private).
 
 Conditions:
-* Model should be trained only using Spark ML clusterization algorithm.
+* Model should be trained only using Spark ML clustering algorithm.
 * You need to train the model on a training data set `train.csv`.
 * Calculate metrics based on the file `is_private.csv`.
