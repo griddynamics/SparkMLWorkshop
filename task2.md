@@ -4,7 +4,7 @@
 
 The folder `data/university/` contains university data.
 It will be necessary to cluster these universities into private and non-private.
-It will be necessary to build a clustering model using the k-means algorithm or another clusterization algorithm from the Spark ML library.
+It will be necessary to build a clustering model using clustering algorithm from the Spark ML library.
 
 ## Data
 
