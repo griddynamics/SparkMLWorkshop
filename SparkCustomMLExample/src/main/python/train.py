@@ -6,7 +6,7 @@ import sys
 import base64
 import re
 
-from sklearn.linear_model import LogisticRegression
+from sklearn.linear_model import LinearRegression
 
 # Here we keep input data to Dataframe constructor
 rows = []
@@ -34,7 +34,7 @@ for i in range(0, len(df.columns) - 1):
     feature_columns.append("feature_" + str(i))
 label_column = "label"
 
-model = LogisticRegression()
+model = LinearRegression()
 model.fit(df[feature_columns], df[label_column])
 model_string = base64.b64encode(pickle.dumps(model)).decode('utf-8')
 
