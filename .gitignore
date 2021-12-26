@@ -1,3 +1,10 @@
 venv/
 .DS_Store
 .idea/
+*/null/
+/*/model/
+*/target/
+*/customModel/
+*/project/project
+.bsp/
+target/
